@@ -1,0 +1,286 @@
+body {
+  background-color: #FDEFF4;
+}
+
+/*Top main part containing main img*/
+.upper {
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* The image used */
+  background-image: url("pic.jpg");
+  /*  height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#d1 {
+  background-color: black;
+}
+
+
+
+#d2 h1 {
+  font-size: 60px;
+  margin-left: 150px;
+  font-family: "Merriweather", sans-serif;
+  color: white;
+}
+
+
+
+#d2 h4 {
+  font-size: 40px;
+  margin-left: 150px;
+  font-family: "Merriweather", sans-serif;
+  color: white;
+}
+
+
+
+ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", sans-serif;
+}
+
+li {
+  float: left;
+  padding: 10px;
+  color: black;
+  font-family: "Merriweather", sans-serif;
+  font-size: 20px;
+}
+
+ul {
+  color: black;
+  display: block;
+}
+
+ul li ul {
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+  color: black;
+  padding: 30px;
+}
+
+ul li:hover ul {
+  display: block;
+  background-color: white;
+}
+
+ul li ul :hover {
+  transform: scale(1.2);
+}
+
+/*Top list */
+#about:hover, #home:hover, #services:hover {
+  background-color: #008CBA;
+  transform: scale(1.2);
+}
+
+#reg {
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+#reg:hover {
+  background-color: #001D6E;
+}
+
+.button1:hover {
+  background-color: #001D6E;
+}
+
+.button, .button1 {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+#dest {
+  display: block;
+  float: left;
+}
+
+#ws {
+  float: left;
+}
+
+#a {
+  margin-left: 20px;
+}
+
+#home {
+  margin-left: 400px;
+}
+
+
+
+#flight {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  margin-left: 150px;
+}
+
+
+#flight:hover {
+  background-color: #008CBA;
+}
+
+
+#hotel:hover {
+  background-color: #008CBA;
+}
+
+#hotel {
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+#car {
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+#car:hover {
+  background-color: #008CBA;
+}
+
+#dest {
+  margin-right: 60px;
+}
+
+#ws {
+  margin-right: 60px;
+}
+
+
+
+.button1 {
+  margin-left: 60px;
+}
+
+/*Mid part*/
+
+#para {
+  float: left;
+  margin-top: 150px;
+  margin-left: 30px;
+  margin-right: 50px;
+  font-family: 'Merriweather', serif;
+  float: left;
+  color: black;
+  display: inline-block;
+  font-size: 50px;
+}
+
+.right-part {
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 210px;
+  margin-right: 50px;
+  margin-top: 160px;
+  height: 100px;
+  width: 520px;
+  font-family: 'Merriweather', serif;
+}
+
+
+.vl {
+  float: left;
+  margin-top: 180px;
+  margin-bottom: 200px;
+  display: inline-block;
+  border-left: 3px solid blue;
+  height: 80px;
+}
+
+span {
+  color: blue;
+}
+
+
+/*Images at Bottom*/
+
+#img1 {
+  box-shadow: 8px 8px #EFEFEF;
+  margin-left: 40px;
+  float: left;
+  height: 250px;
+  width: 210px;
+  background-color: white;
+  text-align: center;
+}
+
+#img2 {
+  box-shadow: 8px 8px #EFEFEF;
+  margin-left: 80px;
+  float: left;
+  height: 250px;
+  width: 210px;
+  background-color: white;
+  text-align: center;
+}
+
+#img3 {
+  box-shadow: 8px 8px #EFEFEF;
+  margin-left: 80px;
+  float: left;
+  height: 250px;
+  width: 210px;
+  background-color: white;
+  text-align: center;
+}
+
+#img4 {
+  box-shadow: 8px 8px #EFEFEF;
+  margin-left: 80px;
+  float: left;
+  height: 250px;
+  width: 210px;
+  background-color: white;
+  text-align: center;
+}
+
+
+
+#img1 :hover {
+  clear: both;
+  border-radius: 20px;
+  transform: scale(1.2);
+}
+
+#img2 :hover {
+  border-radius: 20px;
+  transform: scale(1.2);
+}
+
+#img3 :hover {
+  border-radius: 20px;
+  transform: scale(1.2);
+}
+
+#img4 :hover {
+  border-radius: 20px;
+  transform: scale(1.2);
+}
