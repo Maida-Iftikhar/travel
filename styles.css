@@ -85,7 +85,7 @@ ul li ul :hover {
 /*Top list */
 #about:hover, #home:hover, #services:hover {
   background-color: #008CBA;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 #reg {
